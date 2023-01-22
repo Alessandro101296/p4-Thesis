@@ -1,0 +1,3 @@
+table_add ipv4_exact set_out_port 10.0.1.1 => 1
+table_add ipv4_exact set_out_port 10.0.1.2 => 2
+table_add match_flow set_var 10.0.1.1 10.0.1.2 =>
